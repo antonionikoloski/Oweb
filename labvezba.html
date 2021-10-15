@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+    Menu
+</title>
+</head>
+<body>
+    <p>
+    <h1>Lunch special</h1>
+
+    </p>
+    <p> Monday throught Friday<br>11am-3pm<br>$9.95 (plus tax)
+       
+    </p>
+    <p> Inlcudes sandwiches,snack and drinks </p>
+
+    <form action="/action_page.php">
+    <fieldset>
+    <legend>Order Information</legend>
+    <p><label>Name:
+     <input name="name " type="text" size ="20" maxlength="25">
+    </p> </label>
+    <p>
+       <input type="radio" id="here" name="proba" value="Here">
+       <label for="here">Here</label><br>
+       <input type="radio" id="togo" name="proba" value="To Go">
+       <label for="togo">To go</label><br>
+     </p>
+    </fieldset>
+    <fieldset>
+        <legend>Sandwiches</legend>
+        <p>
+        <strong>Monday</strong><br>
+        <input type="radio" id="tomato" name="proba2" value="Tomato Mozzarela">
+        <label for="tomato">Tomato Mozzarela</label><br>
+        <input type="radio" id="chicken" name="proba2" value="Chicken Salad">
+        <label for="chicken">Chicken Salad</label>    
+        </p>
+
+        <p>
+        <strong>Tuesday</strong><br>
+        <input type="radio" id="greek" name="proba3" value="Greek Salad Vrap">
+        <label for="greek">Greek Salad Vrap</label><br>
+        <input type="radio" id="toto" name="proba3" value="Toto Vrap">
+        <label for="toto">Toto Vrap</label>
+        
+        </p>
+        <p>
+            <strong>Wednesday</strong><br>
+            <input type="radio" id="red" name="proba4" value="Red Pepper Hummus">
+            <label for="red">Red Pepper Hummus</label><br>
+            <input type="radio" id="roasted" name="proba4" value="Roasted Turkey">
+            <label for="roasted">Roasted Turkey</label>
+        </p>
+        <p>
+            <strong>Thursday</strong><br>
+            <input type="radio" id="carrot" name="proba5" value="Carrot Ginger">
+            <label for="carrot">Carrot Ginger</label><br>
+            <input type="radio" id="egg" name="proba5" value="Egg Salad">
+            <label for="egg">Egg Salad</label>
+        </p>
+        <p>
+            <strong>Friday</strong><br>
+            <input type="radio" name="proba6" id="dado" value="Daddo Vrap">
+            <label for="dado">Daddo Vrap</label><br>
+            <input type="radio" id="tuna" name="proba6" value="Tuna Vrap">
+            <label for="tuna">Tuna Vrap</label>
+        </p>
+        <hr>
+        <p>
+            <input type="checkbox" id="bread" name="proba9" value="Bread">
+            <label for="bread">Gluten Free Bread (75 extra)</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Snacks</legend>
+        <p><strong>Snacks</strong><br>
+        <input type="radio" name="proba11" id="apple" value="Apple">
+        <label for="apple">Apple</label><br>
+        <input type="radio" name="proba11" id="banana" value="Banana">
+        <label for="banana">Banana</label><br>
+        <input type="radio " name="proba11" id="potato" value="Potato Chips">
+        <label for="potato">Potato Chips</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Drink</legend>
+        <p> 
+
+        <strong>Drinks</strong><br>
+        <label for="drinks">Choose a Drink</label>
+        <select name="drinks" id="drinks">
+            <option value="Coca Cola">Coca Cola </option>
+            <option value="Fanta">Fanta</option>
+        </select>
+        </p>
+        <p>
+            <hr>
+            <input type="checkbox" name="konecno" id="large" value="Large Drink">
+            <label for="large">Large dring(75 extra)</label>
+        </p>
+    </fieldset>
+
+
+    <p>
+        <input type="submit" value="Place order">
+    </p>
+    </form>
+    
+</body>
+
+
+
+</html>
