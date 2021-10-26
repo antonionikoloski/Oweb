@@ -1,0 +1,126 @@
+body {
+    background-color: #bcb5ad;
+    padding-top: 85px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+
+
+
+.input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+
+
+.input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.input.wide { 
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: white;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.spodeli{
+    float: right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06);
+  
+}
+.nav-links
+{
+    text-align: center;
+    flex: 1;
+}
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a
+{
+    text-decoration: none;
+        color:rgb(14, 13, 13);
+        font-size: 16px;
+        font-family: 'Playfair Display', serif;
+
+
+}
+nav {
+    display: flex;
+    padding: .5% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.nav-links ul li::after
+{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background-color: brown;
+    display: block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}

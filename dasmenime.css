@@ -1,0 +1,288 @@
+.nav-links
+{
+    text-align: center;
+    flex: 1;
+}
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a
+{
+    text-decoration: none;
+        color:rgb(14, 13, 13);
+        font-size: 16px;
+        font-family: 'Playfair Display', serif;
+
+
+}
+nav {
+    display: flex;
+    padding: .5% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.nav-links ul li::after
+{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background-color: brown;
+    display: block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+.slikapozadinska
+{
+    background-image: url(pexels-brady-knoll-3369569.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.promena
+{
+    width: 90%;
+    color:rgb(155, 75, 75);
+    position: absolute;
+    top: 50%;
+    left:20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .promena2
+    {
+        width: 90%;
+        color:rgb(155, 75, 75);
+        position: absolute;
+        top: 50%;
+        left:70%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+.promena3
+{
+    width: 90%;
+    color:rgb(155, 75, 75);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    
+.hero
+{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    border:1px solid rgb(255, 255, 255);
+    padding: 40px 25px;
+    font-size: 40px;
+    background: transparent;
+    cursor: pointer;
+}
+.hero:hover
+{
+    border:1px solid brown;
+    background: brown ;
+    transition:1s;
+}
+.kratkocv
+{
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #bcb5ad;
+
+}
+.kratkocv h1
+{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Allura', cursive;
+    font-family: 'Playfair Display', serif;
+font-size: 60px;
+}
+.slikce
+{
+    border-radius: 30%;
+}
+.kratkocv h1 div
+{
+    
+
+    position: relative;
+    top:300px;
+    left:300px;
+    font-size: 20px;
+}
+.klajanegde
+{
+    width: 70px;
+    margin-left: 350px;
+}
+.klajanegde2
+{
+    width: 70px;
+    margin-left: 355px;
+}
+ .hobi
+{
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e0e7ef;
+
+}
+.divergencija
+{
+    position: relative;
+    top:160px;
+    left: 100px;
+    font-size: 23px;
+    background:none;
+    color: #bcb5ad;
+    font-family: 'Allura', cursive;
+    font-family: 'Birthstone Bounce', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Qahiri', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    padding: 40px 25px;
+    width: 180px;
+    background-color: whitesmoke;
+}
+.divergencija:hover
+{
+   transiton:1s;
+   background: black;
+   color:white;
+}
+.pomosno
+{
+    font-size: 30px;
+}
+.divergencija2
+{
+    position: absolute;
+    top:160px;
+    left: 400px;
+    font-size: 23px;
+    background:none;
+    color: #bcb5ad;
+    font-family: 'Allura', cursive;
+    font-family: 'Birthstone Bounce', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Qahiri', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    padding: 40px 25px;
+    width: 180px;
+    background-color:whitesmoke;
+}
+.divergencija2:hover
+{
+   transiton:1s;
+   background: black;
+   color:white;
+}
+.donesivamu
+{
+    position: absolute;
+    top:50px;
+    left:180px;
+}
+.donesitamu
+{
+    position: absolute;
+    top:50px;
+    left:500px;
+}
+.donesitamu2
+{
+    position: absolute;
+    top:50px;
+    left:1100px;
+}
+.donesitamu3
+{
+    position: absolute;
+    top:50px;
+    left:800px;
+}
+.divergencija3
+{
+    position: absolute;
+    top:160px;
+    left: 700px;
+    font-size: 23px;
+    background:none;
+    color: #bcb5ad;
+    font-family: 'Allura', cursive;
+    font-family: 'Birthstone Bounce', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Qahiri', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    padding: 40px 25px;
+    width: 180px;
+    background-color:whitesmoke;
+}
+.divergencija4
+{
+    position: absolute;
+    top:160px;
+    left: 1000px;
+    font-size: 23px;
+    background:none;
+    color: #bcb5ad;
+    font-family: 'Allura', cursive;
+    font-family: 'Birthstone Bounce', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Qahiri', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    padding: 40px 25px;
+    width: 180px;
+    background-color:whitesmoke;
+}
+.divergencija3:hover
+{
+   transiton:1s;
+   background: black;
+   color:white;
+}
+.divergencija4:hover
+{
+   transiton:1s;
+   background: black;
+   color:white;
+}

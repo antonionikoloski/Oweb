@@ -1,0 +1,169 @@
+.nav-links
+{
+    text-align: center;
+    flex: 1;
+}
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a
+{
+    text-decoration: none;
+        color:rgb(14, 13, 13);
+        font-size: 16px;
+        font-family: 'Playfair Display', serif;
+
+
+}
+nav {
+    display: flex;
+    padding: .5% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.nav-links ul li::after
+{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background-color: brown;
+    display: block;
+    margin: auto;
+    transition:0.5s;
+}
+.nav-links ul li:hover::after
+{
+    width: 100%;
+}
+
+    .row
+    {
+        flex-direction:column ;
+    }
+ .prvo
+ {
+     width: 80%;
+     margin:auto;
+     text-align: center;
+     padding-top: 50px;
+ }   
+ .sliki
+ {
+     flex-basis: 52%;
+     border-radius: 40px;
+     margin-bottom: 100px;
+     position: relative;
+     overflow: hidden;
+ }
+ .zaslika
+ {
+     width: 500px;
+     border-radius: 40px;
+ }
+.layer
+{
+    background: transparent;
+    height: 100%;
+    width: 32.9%;
+    position:absolute;
+    top:0;
+    left:0;
+    border-radius: 40px;
+    transition:1s;
+}
+.layer:hover
+{
+    background: rgba(47, 62, 112, 0.7);
+}
+.zaslika1
+{ 
+width: 440px;
+height: 450px;
+border-radius: 40px;
+}
+.pomos
+{
+    flex-basis: 52%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    position: absolute;
+    top:80px;
+    left:600px;
+    overflow: hidden;
+}
+.zaslika2
+{ 
+width: 300px;
+height: 450px;
+border-radius: 40px;
+}
+.pomos2
+{
+    flex-basis: 52%;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    position: absolute;
+    top:80px;
+    left:1150px;
+    overflow: hidden;
+}
+.muzika
+{
+    
+
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    width: 100%;
+    min-height: 80vh;
+    background-color: #e0e7ef;
+
+
+}
+.zaheding
+{
+    text-align: center;
+    position: relative;
+    top:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+
+}
+.eric
+{
+     flex-basos:44%;
+     border-radius: 10px;
+     margin-bottom: 5%;
+     text-align: left;
+     background: #fff3f3;
+     padding: 25px;
+     cursor: pointer;
+     width: 400px;
+     text-align: center;
+     position: relative;
+     left:100px;
+}
+.aman
+{
+    font-size: 20px;
+}
+.ericpomos
+{
+     flex-basos:44%;
+     border-radius: 10px;
+     margin-bottom: 5%;
+     text-align: left;
+     background: #fff3f3;
+     padding: 25px;
+     cursor: pointer;
+     width: 400px;
+     text-align: center;
+     position: relative;
+     left:900px;
+     top:-600px;
+}
